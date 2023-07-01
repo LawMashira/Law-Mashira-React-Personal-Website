@@ -10,7 +10,7 @@ export default function Achievements() {
         {/*<p className="text-sm text-designColor tracking-[4px] "> 2020 - 2024</p>*/}
         <h2 className="text-3xl md:text-4xl font-bold "> Project Achievements</h2>
       </div>
-      <div className="mt-4 lgl:mt-14 w-full h-[1000px] border-l-[6px] 
+      <div className="mt-2 xs:mt-4 lgl:mt-14 w-full h-[1000px] border-l-[6px] 
       border-l-black
        border-opacity-30 flex flex-col gap-10">
         <ResumeCard 
@@ -43,7 +43,7 @@ export default function Achievements() {
         {/*<p className="text-sm text-designColor tracking-[4px] "> 2020 - 2024</p>*/}
         <h2 className="text-3xl md:text-4xl font-bold "> Work Achievements</h2>
       </div>
-      <div className="mt-6 lgl:mt-14 w-full h-[1000px] border-l-[6px] 
+      <div className="mt-2 xs:mt-4 lgl:mt-14 w-full h-[1000px] border-l-[6px] 
       border-l-black
        border-opacity-30 flex flex-col gap-10">
         <ResumeCard 
