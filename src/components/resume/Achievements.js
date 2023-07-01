@@ -17,24 +17,21 @@ export default function Achievements() {
         title="Inventory Management and Point of Sale System"
         subtitle="( From February- April 2022)"
       
-        des="A standalone GUI applicationmdeveloped using Java. It successfully performes transactions in wholesales and
-        supermarkets. The JDBC driver was used to make connections to the MySQL
-        database."/>
+        des="A standalone GUI application developed using Java for performing transactions in wholesales and
+        supermarkets."/>
         <ResumeCard
           title="ReactJS Portfolio Website"
           subtitle="(January 2022)"
           
           des="A personal website that portrays all the skills honed,tools and 
-          technolgies I have pratical experience in working with. The webiste was developed following
-          high standards of using ReactJS libraries with the help of Taiwindcss for designing. 
+          technolgies I have pratical experience in working with.
 "
            />
         <ResumeCard 
           title="Spring Boot  Applications"
           subtitle=" (From April 2022-present)"
           des="Developed several full stack applications using Java, Spring Boot and ReactJS such
-          Employee Management System, Drone Application and Student Management System. The applications 
-          heavily invloved the use of Spring Boot RESTful APIs."/>
+          Employee Management System, Drone Application and Student Management System that heavily invloved the use of Spring Boot RESTful APIs."/>
         </div>
       </div>
       <div>
