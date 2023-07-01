@@ -30,8 +30,8 @@ export default function Achievements() {
         <ResumeCard 
           title="Spring Boot  Applications"
           subtitle=" (From April 2022-present)"
-          des="Developed several full stack applications using Java, Spring Boot and ReactJS such
-          Employee Management System, Drone Application and Student Management System that heavily invloved the use of Spring Boot RESTful APIs."/>
+          des="Developed several full stack applications using Spring Boot and ReactJS such as
+          Employee Management System and Drone Application that invloved the use of SpringBoot RESTful APIs."/>
         </div>
       </div>
       <div>
