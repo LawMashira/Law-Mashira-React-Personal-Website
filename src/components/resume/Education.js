@@ -19,17 +19,19 @@ export default function Education() {
         title="Bsc Honours in Software Engineering"
         subtitle="Zimbabwe Open University (2020-2024)"
       
-        des="jjherjfiorgiorgklgjkfgiogiotrpofgnm,srgiorgjkrg"/>
+        des="A programming designed for equipping graduates with software development skills
+        to solve business problems taking ideas into reality"/>
         <ResumeCard
           title="Diploma in Education"
           subtitle="University of Zimbabwe (2012-2015)"
           
-          des="jjherjfiorgiorgklgjkfgiogiotrpofgnm,srgiorgjkrg"
+          des="A programmme that equipped me with teachings skills specifically for 
+          elementary students"
            />
         <ResumeCard 
           title="General Certificate Of Education Ordinary Level"
           subtitle="Rufaro Secondary School (2005-2008)"
-          des="jjherjfiorgiorgklgjkfgiogiotrpofgnm,srgiorgjkrg"/>
+          des="Secondary Education that formed the basis of Mathematical and Logical reasoning"/>
         </div>
       </div>
       {/*part two */}
@@ -43,13 +45,13 @@ export default function Education() {
        border-opacity-30 flex flex-col gap-10">
         <ResumeCard 
         title="Software Developer"
-        subtitle="Freelancing (Self-Employed) (2021-present)"
+        subtitle="Freelancing (Self-Employed) (2022-present)"
       
         des="Currently workng with spring boot as the main back end technology for developing Java web applications.   Java and C # have also be
         been used for developing stand alone desktop applications with the MySQL database"/>
         <ResumeCard
-          title="Front End Dveloper"
-          subtitle="Freelancing (Self-Employed) (2021-present)"
+          title="Front End Developer"
+          subtitle="Freelancing (Self-Employed) (2022-present)"
           
           des="Currently working with front end techinologies and developing tools
           such as Visual Studio Code, ReactJS and Taiwindcss to develop all devices responsive 

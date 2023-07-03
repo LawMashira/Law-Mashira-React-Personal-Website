@@ -20,16 +20,22 @@ const Footer =() =>{
       
          
         <div className='flex gap-4'>
+        <a href='https://www.facebook.com/law.mashira'>
 <span className="icon">
 <FaFacebook/>
   </span>
-
+  </a>
+  <a href='https://www.linkedin.com/in/lawson-matutu-520a07216/'>
   <span className="icon">
 <FaLinkedinIn/>
   </span>
+  </a>
+  
+  <a href='http://www.twitter.com/LawMashira'>
   <span className="icon">
 <FaTwitter/>
   </span>
+  </a>
 </div>
                                   
                

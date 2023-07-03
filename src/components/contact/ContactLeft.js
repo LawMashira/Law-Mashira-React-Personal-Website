@@ -16,10 +16,10 @@ p-4 lgl:p-8
   <div className='flex flex-col gap-4'>
     <h3 className="text-4xl font-bold  text-red-600"> Law Mashira</h3>
     <p className='text-lg font-normal text-gray-400'>
-      Java Full Stack Dveloper
+      Java Full Stack Developer
     </p>
-    <p className='text-xl text-gray-400 tracking-wide'>
-      Java java java javahjxsyujhereriojhkererjkerjk
+    <p className='text-xl text-yellow-400 tracking-wide'>
+      Java Developer with SpringBoot and ReactJS skills
     </p>
 
     <p className='text-xl text-gray-400 flex items-center gap-2'>
@@ -35,16 +35,25 @@ p-4 lgl:p-8
 </h2>
 
 <div className='flex gap-4'>
+<a href='https://www.facebook.com/law.mashira'>
 <span className="icon">
 <FaFacebook/>
   </span>
-
+</a>
+<a href='https://www.linkedin.com/in/lawson-matutu-520a07216/'>
   <span className="icon">
 <FaLinkedinIn/>
   </span>
+  </a>
+
+
+
+
+  <a href='http://www.twitter.com/LawMashira'>
   <span className="icon">
 <FaTwitter/>
   </span>
+  </a>
 </div>
 </div>
 </div>

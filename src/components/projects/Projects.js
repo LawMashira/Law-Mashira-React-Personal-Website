@@ -45,12 +45,17 @@ export default function Projects() {
       des="USSD code for managing mobile wallets eg Ecocash in Zimbabwe. This code is useful for checking balance, making cash outs ,recharging mobile phones or pay bills for different services. It also transfers money from one account to another. Generally, coding thrills me as it helps me to understand programming languages for I have great passion for it"
       src={wallet}/>
       </a >
+
+      <a href='https://github.com/LawMashira/Law-Mashira-React-Personal-Website.git'>
+
+      
       <ProjectCard 
       title="ReactJS Portfolio Website"
       des="This is my personal website that portrays all the skillsI have honed,tools and 
       technolgies I have pratical experience in working with. The webiste was developed following
       high standards of using ReactJS libraries with the help of Taiwindcss for designing."
       src={react}/>
+      </a>
       <a href='https://github.com/LawMashira/Drone-RESTful-API-using-the-Springboot.git'>
       <ProjectCard 
       title="Drone transport application"

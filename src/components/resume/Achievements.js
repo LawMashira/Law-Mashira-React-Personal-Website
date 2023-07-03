@@ -43,19 +43,21 @@ export default function Achievements() {
        border-opacity-30 flex flex-col gap-10">
         <ResumeCard 
         title="Java Backend Developer"
-        subtitle=" MusalaSoft (2020 - Present)"
+        subtitle=" Freelancing (Self-Employeed) (2022 - Present)"
       
-        des="jjherjfiorgiorgklgjkfgiogiotrpofgnm,srgiorgjkrg"/>
+        des="Java Programming Language has been used as the main language in backend development
+        with the Spring boot for developing Java Web based applications."/>
         <ResumeCard
-          title="Front End Dveloper"
+          title="Front End Developer"
           subtitle="University of Zim(2012-2015)"
           
-          des="jjherjfiorgiorgklgjkfgiogiotrpofgnm,srgiorgjkrg"
+          des="The framework has been used for development of React applications"
            />
         <ResumeCard 
           title="School Teacher"
           subtitle="Ministry Of Education,Zimbabwe (2015-2023)"
-          des="jjherjfiorgiorgklgjkfgiogiotrpofgnm,srgiorgjkrg"/>
+          des="Worked as teacher under the Ministry Of Education teaching and planning pupils'
+          work "/>
         </div>
         </div>
 
