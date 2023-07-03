@@ -13,54 +13,48 @@ export default function Features() {
                 des="The technologies and tools I have practical experience with:"/>
    <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6 xl:gap-20 text-xl">
                <Card title="SpringBoot"
-                des="The framework has been used as the backend technology
-                for developing Java applications"
+                des="Main backend framework"
                 icon={<SiSpringboot/>}
                 />
                 
                 <Card
                 title="RaectJS"
-                des="The framework has been used as the frontend technology 
-                for developing React applications."
+                des="Main frontend framework"
                 icon={<DiReact/>}
                 />
  
            <Card
                 title="Java"
-                des="The laguage has been used for developing 
-                 web,desktop and console applications."
+                des="Have solid knowledge of the language"
                 icon={<DiJava/>}
                 />
                  
                  <Card
                 title="Eclipse"
-                des="The IDE has been used for as the main develoment tool with STS tools being
-                incooperated"
+                des="Main development tool with STS tools "
                 icon={<DiEclipse/>}
-                />
-
-
+              />
 
 
                 <Card
                 title="Tailwindcss"
-                des="The framework has been widely used for designing React applications."
+                des="Widely used for designing React applications."
                 icon={<SiTailwindcss/>}
                 />
                 <Card 
                  title="MicroSoft Visual Studio"
-                 des="The IDE has been useful for developing C# applications"
+                 des="Main development tool for C# applications"
                  icon={<DiVisualstudio/>}
                  />
                 <Card 
                  title="MySQL"
-                 des="This is the main database that has been included mainly as part of the 
-                 backend development"
+                 des="Main database that has been used as part of the 
+                 backend"
                  icon={<DiMysql/>}
                  />
                 <Card
                  title="GitHub"
-                 des="The main version control that has been used when deploying applications to AWS"
+                 des="Main version control that has been for deploying applications to AWS"
                  icon={<DiGithub/>} 
                 />
 
