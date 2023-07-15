@@ -19,7 +19,7 @@ export default function Education() {
         title="Bsc Honours in Software Engineering"
         subtitle="Zimbabwe Open University (2020-2024)"
       
-        des="A programming designed for equipping graduates with software development skills
+        des="A programme designed for equipping graduates with software development skills
         to solve business problems taking ideas into reality"/>
         <ResumeCard
           title="Diploma in Education"

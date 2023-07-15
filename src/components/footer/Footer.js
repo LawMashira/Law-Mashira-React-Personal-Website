@@ -1,7 +1,7 @@
 import React from 'react'
 import { logo } from '../../assets'
 import { Link } from 'react-scroll'
-import{FaFacebook,FaLinkedinIn, FaTwitter}from "react-icons/fa"
+import{FaFacebook,FaGithub,FaLinkedinIn}from "react-icons/fa"
 
 const Footer =() =>{
   return (
@@ -31,9 +31,9 @@ const Footer =() =>{
   </span>
   </a>
   
-  <a href='http://www.twitter.com/LawMashira'>
+  <a href='http://www.github.com/LawMashira'>
   <span className="icon">
-<FaTwitter/>
+<FaGithub/>
   </span>
   </a>
 </div>

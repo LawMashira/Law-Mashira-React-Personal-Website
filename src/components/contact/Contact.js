@@ -8,17 +8,17 @@ export default function Contact() {
  const [email, setEmail]= useState("")
  const [subject, setSubject]= useState("")
  const [message, setMessage]= useState("")
- const [errMessage, seterrMessage]= useState("")
- const [successMessage, setSuccesssMessage]= useState("")
+ //const [errMessage, seterrMessage]= useState("")
+ //const [successMessage, setSuccesssMessage]= useState("")
 
    //======== Email  Validation
-   const emailValidation = ()=>{
+   /*const emailValidation = ()=>{
     return String (email)
     .toLocaleLowerCase()
     .match (/^\w+([-]?\w+)*@\w+([-]?\w+)*(\.\w{2,3})+$/)
    }
 
-
+/*
 const handleSend = (e)=>{
   e.preventDefault()
   if(username=== ""){
@@ -45,7 +45,7 @@ const handleSend = (e)=>{
     
   }
 }
-
+*/
   return (
     <section id='contact' 
     className="w-full py-20 border-b-[1px] border-b-black">
@@ -62,10 +62,10 @@ const handleSend = (e)=>{
     <div className='w-full lgl:w-[60%] h-full bg-gradient-to-r from-[#1e2024] to-[#23272b]
     flex flex-col gap-8 p-4 lgl:p-8 rounded-lg shadow-shadowOne'>
 
-      <form action="https://getform.io/f/b6b95f82-3a22-4321-a484-d2c5ef5332a0" method ="POST"
+      <form action="https://getform.io/f/4a5f26c5-fda2-4c23-9c6e-a519a9b6272a" method ="POST"
       
       className='w-full flex flex-col gap-6 py-2 lgl:py-5'>
-
+{/*
   {
     errMessage && (<p className='py-3 bg-gradient-to-r from-[#1e2024] to-[#23272b]
     shadow-shadowOne text-center text-red-700 text-base  tracking-wide
@@ -75,7 +75,7 @@ const handleSend = (e)=>{
     successMessage && (<p className='py-3 bg-gradient-to-r from-[#1e2024] to-[#23272b]
     shadow-shadowOne text-center text-green-600 text-base  tracking-wide
     animate-bounce'>{successMessage}</p>)
-  }
+  }*/}
 
 
 <div className='w-full flex flex-col  lgl:flex-row gap-10'>
@@ -85,9 +85,10 @@ const handleSend = (e)=>{
    onChange={(e)=>setUsername(e.target.value)}
    value={username}
   className = {`${
-    errMessage === "Username is required"&&  "outline-designColor"
+    {/*errMessage === "Username is required"&&  "outline-designColor"*/}
   }  contactInput  ` }
   type="text"
+  name="NAME"
   />
   
   </div>
@@ -99,9 +100,10 @@ onChange={(e)=>setphoneNumber(e.target.value)}
   value={phoneNumber}
 
   className = {`${
-    errMessage ==="Phone is required"&&  "outline-designColor"
+ {/* errMessage ==="Phone is required"&&  "outline-designColor"*/}
   } contactInput  `}
   type="text"
+  name="Phone Number "
   />
   
   </div>
@@ -113,18 +115,20 @@ onChange={(e)=>setphoneNumber(e.target.value)}
   onChange={(e)=>setEmail(e.target.value)}
    value={email}
   className = {`${
-    errMessage ==="A valid email is required"&&  "outline-designColor"
+  {/*errMessage ==="A valid email is required"&&  "outline-designColor"*/}
   } contactInput   `}
   type="email"
+  name="Email"
   />
 </div>
 <div className='flex flex-col gap-4'>
 <p className='text-sm text-gray-50 uppercase tracking-wide'>Subject</p>
   <input
   className = {`${
-    errMessage ==="Subject is required"&&  "outline-designColor"
+    {/*errMessage ==="Subject is required"&&  "outline-designColor"*/}
   } contactInput`}
   type="text"
+  name="Subject"
   onChange={(e)=>setSubject(e.target.value)}
  value={subject} 
   
@@ -133,15 +137,16 @@ onChange={(e)=>setphoneNumber(e.target.value)}
 <div className='flex flex-col gap-4'>
 <p className='text-sm text-gray-50 uppercase tracking-wide'>Message</p>
   <textarea 
+  name="Message"
   onChange={(e)=>setMessage(e.target.value)}
   value={message}
   className={`${
-    errMessage ==="Message is required"&&  "outline-designColor"
+ {/* errMessage === "Message is required"&&  "outline-designColor"*/}
   }  contactInput`}
   cols="30" rows="8"></textarea>
 </div>
 <div className='w-full'>
-  <button onClick={handleSend} 
+  <button  type='submit' // onClick={handleSend}
   className='w-full h-12 bg-[#141518] rounded-lg text-base first-letter:
 
   bg-gradient-to-b from-blue-500
@@ -152,6 +157,7 @@ onChange={(e)=>setphoneNumber(e.target.value)}
     hover:border-[1px] hover:border-designColor border-transparent text-yellow-100'>
       Let's Talk</button>
 </div>
+{/*
 
 {
     errMessage && (<p className='py-3 bg-gradient-to-r from-[#1e2024] to-[#23272b]
@@ -163,7 +169,7 @@ onChange={(e)=>setphoneNumber(e.target.value)}
     shadow-shadowOne text-center text-green-600 text-base  tracking-wide
     animate-bounce'>{successMessage}</p>)
   }
-
+*/}
 
 
       </form>

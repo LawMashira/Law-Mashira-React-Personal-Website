@@ -1,5 +1,5 @@
 import React from 'react'
-import{FaFacebook,FaLinkedinIn, FaTwitter}from "react-icons/fa"
+import{FaFacebook,FaGithub,FaLinkedinIn}from "react-icons/fa"
 import { contactImage } from '../../assets'
 
 
@@ -49,9 +49,9 @@ p-4 lgl:p-8
 
 
 
-  <a href='http://www.twitter.com/LawMashira'>
+  <a href='http://www.github.com/LawMashira'>
   <span className="icon">
-<FaTwitter/>
+<FaGithub/>
   </span>
   </a>
 </div>

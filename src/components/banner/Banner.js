@@ -1,15 +1,15 @@
 import React from 'react'
 import { useTypewriter,Cursor } from 'react-simple-typewriter'
-import{FaFacebook,FaLinkedinIn, FaReact, FaTwitter}from "react-icons/fa"
+import{FaFacebook,FaGithub,FaLinkedinIn, FaReact}from "react-icons/fa"
 import{SiTailwindcss,SiSpringboot} from "react-icons/si"
 import { law } from '../../assets';
 export default function Banner() {
 const [text]=useTypewriter({
-  words:["Java Backend Developer","ReactJS Developer", "Java Full Stack Developer"],
+  words:["Java Backend Developer","ReactJS Developer", "Java Full Stack Developer"," Web Developer"],
   loop:true,
   typeSpeed:1,
   delaySpeed:2000,
-  deleteSpeed:1,
+  deleteSpeed:1,  
 });
 
   return (
@@ -58,9 +58,9 @@ a Diploma in Education in 2015 at Joshua Mqabuko Nkomo Polytechnic, an associate
   </span>
   </a>
 
-<a href='http://www.twitter.com/LawMashira'>
+<a href='http://www.github.com/LawMashira'>
   <span className="icon">
-<FaTwitter/>
+<FaGithub/>
   </span>
   </a>
   </div>
