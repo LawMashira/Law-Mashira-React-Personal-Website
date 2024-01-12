@@ -94,7 +94,7 @@ const handleSend = (e)=>{
   </div>
 
   <div className='w-full lgl:w-1/2 flex flex-col gap-4'>
-  <p className='text-sm text-gray-50 uppercase tracking-wide'>Phone Nunmber</p>
+  <p className='text-sm text-gray-50 uppercase tracking-wide'>Phone Number</p>
   <input 
 onChange={(e)=>setphoneNumber(e.target.value)}
   value={phoneNumber}

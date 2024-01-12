@@ -31,6 +31,7 @@ const Navbar=() =>{
 <li  className=" text-xl font-normal text-white tracking-wide cursor-pointer
 hover:text-designColor duration-300" key={id} > 
 <Link 
+
 activeClass="active"
 to={link}
 spy={true}
