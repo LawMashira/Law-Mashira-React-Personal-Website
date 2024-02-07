@@ -9,27 +9,22 @@ import Footer from "./components/footer/Footer";
 import FooterBottom from "./components/footer/FooterBottom";
 import { Helmet } from "react-helmet";
 
-class App extends React.Component  {
-  render(){
-  return (
-    <div className="w-full h-auto bg-bodyColor text-lightText px-4">
-        <Navbar/>
-    <div className="max-w-screen-xl mx-auto">
-   q
+function App () {
+    return (
+      <div className="w-full h-auto bg-bodyColor text-lightText px-4">
+        <Navbar />
+        <div className="max-w-screen-xl mx-auto">
+          <Banner />
+          <Features />
+          <Projects />
+          <Resume />
+          {/*<Testmonial/>*/}
+          <Contact />
+          <Footer />
+          <FooterBottom />
+        </div>
+      </div>
+    );
+  }
 
-  
-    <Banner/>
-  <Features/>
-    <Projects/>
-    <Resume/>
-    {/*<Testmonial/>*/}
-    <Contact/>
-    <Footer/>
-    <FooterBottom/>
-    </div>
-      
-    </div>
-  );
-}
-}
 export default App;
