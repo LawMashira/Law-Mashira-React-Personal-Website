@@ -15,12 +15,7 @@ class App extends React.Component  {
     <div className="w-full h-auto bg-bodyColor text-lightText px-4">
         <Navbar/>
     <div className="max-w-screen-xl mx-auto">
-    <Helmet>
-                <meta charSet="utf-8" />
-                <title> Lawson Matutu Portfolio Website</title>
-                <link rel="canonical" href="https://symphonious-axolotl-8f4bde.netlify.app/" />
-            </Helmet>
-
+   q
 
   
     <Banner/>
