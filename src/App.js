@@ -7,7 +7,7 @@ import Projects from "./components/projects/Projects";
 import Contact from "./components/contact/Contact";
 import Footer from "./components/footer/Footer";
 import FooterBottom from "./components/footer/FooterBottom";
-import { Helmet } from "react-helmet";
+
 
 function App () {
     return (

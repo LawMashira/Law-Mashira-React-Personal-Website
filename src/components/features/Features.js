@@ -3,6 +3,7 @@ import Title from '../layouts/Title'
 import Card from './Card'
 import{SiSpringboot,SiTailwindcss} from "react-icons/si"
 import { DiEclipse,DiReact ,DiMysql,DiVisualstudio,DiGithub,DiJava} from "react-icons/di";
+
 export default function Features() {
   return ( 
   <section id="features"
@@ -53,10 +54,11 @@ export default function Features() {
                  icon={<DiMysql/>}
                  />
                 <Card
-                 title="GitHub"
+                 title="Git"
                  des="Main version control that has been for deploying applications to AWS"
                  icon={<DiGithub/>} 
                 />
+              
 
 
    </div>
