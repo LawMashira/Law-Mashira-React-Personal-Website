@@ -44,17 +44,17 @@ export default function Education() {
       border-l-black
        border-opacity-30 flex flex-col gap-10">
         <ResumeCard 
-        title="Software Developer"
-        subtitle="Freelancing (Self-Employed) (2022-present)"
+        title="Full Stack Developer"
+        subtitle="Freelancing  (2022-present)"
       
-        des="Currently workng with spring boot as the main back end technology for developing Java web applications.   Java and C # have also be
+        des=" Working with spring boot as the main back end technology for developing Java web applications.   Java and C # have also be
         been used for developing stand alone desktop applications with the MySQL database"/>
         <ResumeCard
           title="Front End Developer"
-          subtitle="Freelancing (Self-Employed) (2022-present)"
+          subtitle="LaunchWith (2023-present)"
           
-          des="Currently working with front end techinologies and developing tools
-          such as Visual Studio Code, ReactJS and Taiwindcss to develop all devices responsive 
+          des="Working with front end techinologies and developing tools
+          such as Visual Studio Code, ReactJS and Tailwind CSS to develop all device responsive 
           websites."
            />
         <ResumeCard 

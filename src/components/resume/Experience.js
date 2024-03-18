@@ -41,8 +41,8 @@ export default function Experience() {
                      border-l-black
                       border-opacity-30 flex flex-col gap-10">
                        <ResumeCard 
-                       title="Software Developer"
-                       subtitle="Freelancing (Self-Employed) (2021-present)"
+                       title="Backend Developer"
+                       subtitle="Freelancing (2021-present)"
                      
                        des="I have practical experience  in writing codes,building and designing software  systems as a freelancer. Currently,  I prefer to 
                        work with technologies such as Visual Studio Code,eclipse for Java, ReactJS, MySQL, SpringBoot and Microsoft 
