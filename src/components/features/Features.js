@@ -2,7 +2,7 @@ import React from 'react'
 import Title from '../layouts/Title'
 import Card from './Card'
 import{SiSpringboot,SiTailwindcss} from "react-icons/si"
-import { DiEclipse,DiReact ,DiMysql,DiVisualstudio,DiGithub,DiJava} from "react-icons/di";
+import { DiReact ,DiMysql,DiVisualstudio,DiGithub,DiJava, DiIntellij, DiBootstrap, DiAws} from "react-icons/di";
 
 export default function Features() {
   return ( 
@@ -19,7 +19,7 @@ export default function Features() {
                 />
                 
                 <Card
-                title="RaectJS"
+                title="ReactJS"
                 des="Main frontend framework"
                 icon={<DiReact/>}
                 />
@@ -31,9 +31,9 @@ export default function Features() {
                 />
                  
                  <Card
-                title="Eclipse"
-                des="Main development tool with STS tools "
-                icon={<DiEclipse/>}
+                title="Amazon Web Services"
+                des="Main deployment and DevOps platform  "
+                icon={<DiAws/>}
               />
 
 
@@ -54,11 +54,20 @@ export default function Features() {
                  icon={<DiMysql/>}
                  />
                 <Card
-                 title="Git"
+                 title="Git & GitHub"
                  des="Main version control that has been for deploying applications to AWS"
                  icon={<DiGithub/>} 
                 />
-              
+                 <Card
+                title="Intellij IDEA"
+                des="Main development tool with STS tools "
+                icon={<DiIntellij/>}
+              />
+                 <Card
+                title="Bootstrap"
+                des="Main development tool with STS tools "
+                icon={<DiBootstrap/>}
+              />
 
 
    </div>
