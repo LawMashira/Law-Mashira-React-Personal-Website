@@ -2,7 +2,7 @@ import React from 'react'
 import Title from '../layouts/Title'
 import Card from './Card'
 import{SiSpringboot,SiTailwindcss} from "react-icons/si"
-import { DiReact ,DiMysql,DiVisualstudio,DiGithub,DiJava, DiIntellij, DiBootstrap, DiAws} from "react-icons/di";
+import { DiReact ,DiMysql,DiVisualstudio,DiJava, DiIntellij, DiBootstrap, DiAws, DiGit} from "react-icons/di";
 
 export default function Features() {
   return ( 
@@ -56,7 +56,7 @@ export default function Features() {
                 <Card
                  title="Git & GitHub"
                  des="Main version control that has been for deploying applications to AWS"
-                 icon={<DiGithub/>} 
+                 icon={<DiGit/>} 
                 />
                  <Card
                 title="Intellij IDEA"

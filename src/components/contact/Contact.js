@@ -97,6 +97,7 @@ const handleSend = (e)=>{
                     }  contactInput  `}
                     type="text"
                     name="NAME"
+                    required
                   />
                 </div>
 
@@ -114,6 +115,7 @@ const handleSend = (e)=>{
                     } contactInput  `}
                     type="text"
                     name="Phone Number "
+                    required
                   />
                 </div>
               </div>
@@ -131,6 +133,7 @@ const handleSend = (e)=>{
                   } contactInput   `}
                   type="email"
                   name="Email"
+                  required
                 />
               </div>
               <div className="flex flex-col gap-4">
@@ -145,6 +148,7 @@ const handleSend = (e)=>{
                   } contactInput`}
                   type="text"
                   name="Subject"
+                  required
                   onChange={(e) => setSubject(e.target.value)}
                   value={subject}
                 />
@@ -155,6 +159,7 @@ const handleSend = (e)=>{
                 </p>
                 <textarea
                   name="Message"
+                  required
                   onChange={(e) => setMessage(e.target.value)}
                   value={message}
                   className={`${
