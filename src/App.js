@@ -7,9 +7,15 @@ import Projects from "./components/projects/Projects";
 import Contact from "./components/contact/Contact";
 import Footer from "./components/footer/Footer";
 import FooterBottom from "./components/footer/FooterBottom";
-
-
+import ReactGA from 'react-ga'; // Import ReactGA
+import { useEffect } from "react";
+const TRACKING_ID = "G-2PSHT2P6P0"; // Replace with your Google Analytics Tracking ID
 function App () {
+  
+  useEffect(() => {
+    ReactGA.initialize(TRACKING_ID); // Initialize GA
+    ReactGA.pageview(window.location.pathname + window.location.search); // Record initial page view
+  }, []);
     return (
       <div className="w-full h-auto bg-bodyColor text-lightText px-4">
         <Navbar />
