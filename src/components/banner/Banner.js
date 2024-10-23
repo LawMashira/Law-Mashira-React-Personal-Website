@@ -20,7 +20,7 @@ export default function Banner() {
   return (
     <section
       id="home"
-      className="w-full pt-10 pb-20  flex flex-col gap-10 xl:gap-0 lgl:flex-row items-center
+      className="w-full pt-10 pb-20  flex flex-col gap-10 xl:gap-0 md:flex-row items-center
      border-b-[1px] font-titleFont    border-b-black"
     >
       <div className="w-full  lgl:w-1/2  flex flex-col gap-20">
@@ -104,17 +104,14 @@ export default function Banner() {
       <div className="w-full lgl:w-1/2 flex justify-center items-center relative    
       ">
         <img
-          className="w-[300px] h-[400px] lgl:w-[500px] lgl:h-[680px] z-10
+          className=" rounded border-blue-400 border-[2px] w-[300px] h-[400px] md:h-[500px] md:w-[600px] lgl:w-[500px] lgl:h-[680px] z-10
           
           
           "
           src={law}
           alt="IMG"
         />
-        <div
-          className="absolute bottom-0 w-[350px] h-[300px] lgl:w-[500px] lgl:h-[500px] bg-gradient-to-r from-[#1e2024]
-to-[#202327] shadow-shadowOne flex justify-center items-center"
-        ></div>
+       
       </div>
     </section>
   );

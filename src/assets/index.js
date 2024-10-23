@@ -9,11 +9,15 @@ import wallet from "./wallet.jpeg"
 import download from "./download.jpeg"
 import employee from "./employee.jpeg"
 import contactImage from "./contactImage.png"
+import school from "./school.avif"
+import logoo from './logoo.png'
 export{crud,react,wallet,download,employee,
                 logo,
                 linked,
                 facebook,
                 law,
                 point,
-                contactImage
+                contactImage,
+                school,
+                logoo
 }
