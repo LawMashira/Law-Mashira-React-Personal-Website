@@ -28,12 +28,15 @@ export default function Banner() {
   });
 
   return (
+
+    
     <section
       id="home"
       className="w-full pt-10 pb-20  flex flex-col gap-10 xl:gap-0 md:flex-row items-center
      border-b-[1px] font-titleFont    border-b-black"
     >
-  <>
+  
+  
       {/* SEO Component to inject metadata */}
       <SEO
         title="Professional Full Stack Web Development in Phoenix, Durban"
@@ -41,54 +44,6 @@ export default function Banner() {
         keywords="Full stack developer, web development Phoenix, software developer Durban, e-commerce, SEO services, custom software development"
         businessData={businessData}
       />
-
-      {/* Main content of the page */}
-      <header className="py-10 text-center">
-        <h1 className="text-4xl font-bold text-gray-800">Lawson Matutu - Full Stack Developer</h1>
-        <p className="mt-4 text-lg text-gray-600">Professional web and software development services in Phoenix, Durban.</p>
-      </header>
-
-      <main className="p-6">
-        <section className="mb-8">
-          <h2 className="text-2xl font-semibold text-gray-800">About Lawson Matutu</h2>
-          <p className="mt-4 text-gray-600">
-            I am a full stack software developer based in Phoenix, Durban, with expertise in developing high-quality, scalable websites and applications. My services include front-end and back-end development, e-commerce solutions, and search engine optimization (SEO) to help businesses achieve their digital goals.
-          </p>
-        </section>
-
-        <section className="mb-8">
-          <h2 className="text-2xl font-semibold text-gray-800">Services Offered</h2>
-          <ul className="mt-4 text-gray-600 space-y-2">
-            <li><strong>Custom Web Development:</strong> Responsive and tailored websites optimized for performance and user engagement.</li>
-            <li><strong>Software Development:</strong> Custom applications to improve business operations and productivity.</li>
-            <li><strong>SEO Services:</strong> Boost your online visibility with strategic SEO practices for higher search rankings.</li>
-            <li><strong>E-commerce Solutions:</strong> Develop and optimize e-commerce sites for seamless shopping experiences.</li>
-          </ul>
-        </section>
-
-        <section className="mb-8">
-          <h2 className="text-2xl font-semibold text-gray-800">Technologies I Use</h2>
-          <p className="mt-4 text-gray-600">
-            My toolkit includes HTML, CSS, JavaScript, React, TypeScript, Node.js, Express, Java, Spring Boot, AWS, and more, ensuring I deliver modern, efficient, and scalable solutions.
-          </p>
-        </section>
-
-        <section className="mb-8">
-          <h2 className="text-2xl font-semibold text-gray-800">Why Choose Me?</h2>
-          <p className="mt-4 text-gray-600">
-            As a local developer in Phoenix, Durban, I understand the unique needs of businesses in the area. I’m committed to delivering exceptional service, ensuring projects are on time, on budget, and exceed expectations.
-          </p>
-        </section>
-
-        <section className="mb-8">
-          <h2 className="text-2xl font-semibold text-gray-800">Contact Me</h2>
-          <p className="mt-4 text-gray-600">
-            Ready to start your project? Reach out for a consultation today. Let’s work together to bring your vision to life.
-          </p>
-        </section>
-      </main>
-    </>
-
 
 
       <div className="w-full  lgl:w-1/2  flex flex-col gap-20">
