@@ -3,6 +3,16 @@ import { useTypewriter, Cursor } from "react-simple-typewriter";
 import { FaFacebook, FaGithub, FaLinkedinIn, FaReact } from "react-icons/fa";
 import { SiTailwindcss, SiSpringboot } from "react-icons/si";
 import { law } from "../../assets";
+import SEO from "../SEO";
+const businessData = {
+  name: "Lawson Matutu Full Stack Developer",
+  address: "Greenbury, Phoenix, 4068",
+  city: "Phoenix,Durban",
+  region: "KwaZulu-Natal",
+  zipCode: "4080",
+  phone: "+27641156101"
+};
+
 export default function Banner() {
   const [text] = useTypewriter({
     words: [
@@ -23,6 +33,26 @@ export default function Banner() {
       className="w-full pt-10 pb-20  flex flex-col gap-10 xl:gap-0 md:flex-row items-center
      border-b-[1px] font-titleFont    border-b-black"
     >
+
+<SEO
+        title="Top Web Development Services Phoenix, Durban"
+        description="Reliable and quality web development services in Phoenix,Durban. Contact us for web development, computer programming, 
+        software development, SEO Services and e-commerce websites."
+        keywords="web development, software development, e-commerce websites,SEO services Phoenix,Durban"
+        businessData={businessData}
+      />
+      <header className="py-10 text-center">
+        <h1 className="text-4xl font-bold text-gray-800">Lawson Matutu Full Stack Developer </h1>
+        <p className="mt-4 text-lg text-gray-600">Delivering quality web and softwaredevelopment services in Phoenix,Durban.</p>
+      </header>
+
+
+
+
+
+
+
+
       <div className="w-full  lgl:w-1/2  flex flex-col gap-20">
         <div className="flex flex-col gap-5">
           <h4 className="text-4xl ml-2 text-yellow-400">
