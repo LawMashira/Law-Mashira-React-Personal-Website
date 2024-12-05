@@ -39,8 +39,8 @@ export default function Banner() {
   
       {/* SEO Component to inject metadata */}
       <SEO
-        title="Professional Full Stack Web Development in Phoenix, Durban"
-        description="Lawson Matutu offers expert full stack web and software development services in Phoenix,   m   Durban. Specializing in custom websites, software applications, e-commerce, and SEO services."
+        title="Professional Full Stack Web Developer in Phoenix, Durban"
+        description="Lawson Matutu offers expert full stack web and software development services in Phoenix,  Durban. Specializing in custom websites, software applications, e-commerce, and SEO services."
         keywords="Full stack developer, web development Phoenix, software developer Durban, e-commerce, SEO services, custom software development"
         businessData={businessData}
       />
