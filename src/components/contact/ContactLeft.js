@@ -1,6 +1,6 @@
 import React from 'react'
 import{FaFacebook,FaGithub,FaLinkedinIn}from "react-icons/fa"
-import { contactImage } from '../../assets'
+import { contact} from '../../assets'
 
 
 export default function ContactLeft() {
@@ -9,7 +9,7 @@ export default function ContactLeft() {
 p-4 lgl:p-8 
     rounded-lg shadow-shadowOne flex flex-col gap-8 justify-center'>
 <img className='w-full h-72 object-fill rounded-lg mb-2'
-  src={contactImage}  
+  src={contact}  
   alt='thre supposed to be pic'
   />
 

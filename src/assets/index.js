@@ -11,7 +11,8 @@ import employee from "./employee.jpeg"
 import contactImage from "./contactImage.png"
 import school from "./school.avif"
 import logoo from './logoo.png'
-export{crud,react,wallet,download,employee,
+import contact from './contact.jpg'
+export{crud,react,wallet,download,employee, contact,
                 logo,
                 linked,
                 facebook,
