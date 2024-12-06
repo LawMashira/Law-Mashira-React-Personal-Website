@@ -49,7 +49,7 @@ export default function Banner() {
       <div className="w-full  lgl:w-1/2  flex flex-col gap-20">
         <div className="flex flex-col gap-5">
           <h4 className="text-4xl ml-2 text-yellow-400">
-            Welcome To My World...
+            Welcome To My World...  A Tech Enthusiast's Haven...
           </h4>
           <h1 className="text-5xl font-bold text-white">
             I'm
