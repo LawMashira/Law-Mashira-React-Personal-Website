@@ -47,7 +47,7 @@ export default function Projects() {
       <a href='https://swd-renovations-expert.vercel.app'>
       <ProjectCard 
       title="SWD Renovations Expert"
-      des="A construction website is a fully developed platform showcasing professional construction services and completed projects. It features responsive design, a modern tech stack (React, TypeScript, Tailwind CSS), and an intuitive user interface. Designed to engage clients, it highlights service offerings, portfolios, and client testimonials, ensuring seamless navigation and accessibility."
+      des="A construction website  fully developed platform showcasing professional construction services and completed projects. It features responsive design, a modern tech stack (React, TypeScript, Tailwind CSS), and an intuitive user interface. Designed to engage clients, it highlights service offerings, portfolios, and client testimonials, ensuring seamless navigation and accessibility."
       src='https://images.unsplash.com/photo-1464146072230-91cabc968266?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D'/>
       </a >
 
