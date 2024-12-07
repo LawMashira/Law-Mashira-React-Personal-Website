@@ -10,7 +10,7 @@ const businessData = {
   city: "Phoenix,Durban",
   region: "KwaZulu-Natal",
   zipCode: "4080",
-  phone: "+27641156101"
+  phone: "+27641156101",
 };
 
 export default function Banner() {
@@ -28,15 +28,11 @@ export default function Banner() {
   });
 
   return (
-
-    
     <section
       id="home"
       className="w-full pt-10 pb-20  flex flex-col gap-10 xl:gap-0 md:flex-row items-center
      border-b-[1px] font-titleFont    border-b-black"
     >
-  
-  
       {/* SEO Component to inject metadata */}
       <SEO
         title="Professional Full Stack Web Developer in Phoenix, Durban"
@@ -45,11 +41,10 @@ export default function Banner() {
         businessData={businessData}
       />
 
-
       <div className="w-full  lgl:w-1/2  flex flex-col gap-20">
         <div className="flex flex-col gap-5">
           <h4 className="text-4xl ml-2 text-yellow-400">
-            Welcome To My World...  A Tech Enthusiast's Haven...
+            Welcome To My World... A Tech Enthusiast's Haven...
           </h4>
           <h1 className="text-5xl font-bold text-white">
             I'm
@@ -64,14 +59,22 @@ export default function Banner() {
             />
           </h2>
           <p className="font-bodyFont leading-6 tracking-wide text-xl">
-            who has practical experience in writing codes,building and designing
-            software systems as a freelancer. Currently, I prefer to work with
-            technologies such as Visual Studio Code,Eclipse for Java, ReactJS,
-            MySQL, SpringBoot and Microsoft Visual Studio for C#.
+            Result-driven Full Stack Developer with over two years of experience
+            in designing and delivering scalable, end-to-end web and software
+            solutions using React, TypeScript, Tailwind CSS, and Spring Boot.
+            Proficient in Java, RESTful APIs, Spring Boot and AWS cloud services
+            (EC2, S3, RDS), with hands on expertise in DevOps tools like Docker,
+            Jenkins, and Maven. Skilled in implementing Agile methodologies,
+            writing clean and maintainable code, and optimizing applications for
+            performance and scalability. Strong knowledge of Data Structures and
+            Algorithms, Object-Oriented Programming, and relational databases
+            (MySQL, Oracle). Adept at collaborating across teams to deliver
+            high-quality, user-centric applications with robust functionality
+            and seamless integration.
           </p>
           <p className="text-xl">
             {" "}
-            Lawson is a former classroom practitioner who worked under the
+            Lawson is a former ICT  classroom practitioner who worked under the
             Ministry of Education, Zimbabwe for more than seven years having
             attained a Diploma in Education in 2015 at Joshua Mqabuko Nkomo
             Polytechnic, an associate college of the University of Zimbabwe but
@@ -124,8 +127,10 @@ export default function Banner() {
         </div>
       </div>
 
-      <div className="w-full lgl:w-1/2 flex justify-center items-center relative    
-      ">
+      <div
+        className="w-full lgl:w-1/2 flex justify-center items-center relative    
+      "
+      >
         <img
           className=" rounded border-blue-400 border-[2px] w-[300px] h-[400px] md:h-[500px] md:w-[600px] lgl:w-[500px] lgl:h-[680px] z-10
           
@@ -134,7 +139,6 @@ export default function Banner() {
           src={law}
           alt="IMG"
         />
-       
       </div>
     </section>
   );

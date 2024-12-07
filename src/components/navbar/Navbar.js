@@ -5,6 +5,7 @@ import {FiMenu} from 'react-icons/fi'
 import{ MdClose} from 'react-icons/md'
 import { logo } from "../../assets/index"
 import { NavLinks } from "../constants"
+import { FaDownload } from "react-icons/fa";
 
 const Navbar=() =>{
 
@@ -24,7 +25,44 @@ const Navbar=() =>{
 
 
                 <div>
-  <ul className=" hidden mdl:inline-flex  items-center gap-6 lg:gap-10">
+
+
+                <ul className="hidden mdl:inline-flex items-center gap-6 lg:gap-10">
+    {NavLinks.map(({ id, title, link,icon }) => (
+      <li
+        className="text-xl font-normal text-white tracking-wide cursor-pointer hover:text-designColor duration-300"
+        key={id}
+      >
+        {id === 4 ? (
+          // Center the "Get My CV" icon and text vertically
+          <div className="flex flex-col justify-center items-center">
+            <a
+              href={link}
+              download="Fullstack-CV"
+              className="flex flex-col items-center text-white hover:text-designColor duration-300"
+            >
+              <FaDownload className="text-x mb-2" /> {/* Icon */}
+              {title} {/* Text */}
+            </a>
+          </div>
+        ) : (
+          // Render regular navigation links
+          <Link
+            activeClass="active"
+            to={link}
+            spy={true}
+            smooth={true}
+            offset={-70}
+            duration={500}
+          >
+            <span className="text-2xl mb-1 flex justify-center items-center">{icon}</span> {/* Icon */}
+            {title}
+          </Link>
+        )}
+      </li>
+    ))}
+  </ul>
+  {/*<ul className=" hidden mdl:inline-flex  items-center gap-6 lg:gap-10">
 {
                 
   NavLinks.map(({id,title,link})=>(
@@ -44,7 +82,7 @@ duration={500}
 </li> 
 ))}
 
-  </ul>
+  </ul>*/}
 
   <span onClick={()=>setShowMenu(!showMenu)}className="text-xl mdl:hidden bg-black w-10 h-10 inline-flex items-center
   justify-center rounded-full text-designColor cursor-pointer">
@@ -77,7 +115,8 @@ duration={500}
              className=" text-xl font-normal text-white tracking-wide cursor-pointer
             hover:text-designColor duration-300"
             >
-              <Link
+              
+              {/*<Link
               onClick={()=>setShowMenu(false)}
               activeClass="active"
               to={item.link}
@@ -85,12 +124,62 @@ duration={500}
               smooth={true}
               offset={-70}
               duration={500}
-              >{item.title}</Link></li>
+              >{item.title}  </Link>
+              */}
+              {item.title === "Get My CV" ? (
+        <a
+          href="/cv-path/fullstack.pdf"// Link to the CV file
+          download="Lawson Matutu-CV" // Suggest a download filename
+          className="flex items-center gap-2"
+        >
+          <FaDownload className="text-xl" /> {/* Download Icon */}
+          {item.title}
+        </a>
+      ) : (
+        <Link
+          onClick={() => setShowMenu(false)}
+          activeClass="active"
+          to={item.link}
+          spy={true}
+          smooth={true}
+          offset={-70}
+          duration={500}
+          className="flex items-center gap-2"
+        >
+         {item.title === "Get My CV" ? (
+        <a
+          href={item.link} // Link to the CV file
+          download="Lawson Matutu-CV" // Suggest a download filename
+          className="flex items-center gap-2"
+        >
+          <FaDownload className="text-xl" /> {/* Download Icon */}
+          {item.title}
+        </a>
+      ) : (
+        <Link
+          onClick={() => setShowMenu(false)}
+          activeClass="active"
+          to={item.link}
+          spy={true}
+          smooth={true}
+          offset={-70}
+          duration={500}
+          className="flex items-center gap-2"
+        >
+          {item.icon && <span>{item.icon}</span>} {/* Render icon if present */}
+          {item.title}
+        </Link>
+      )}
+        </Link>
+      )}
+              
+              </li>
            )) 
 
            
           }
          </ul>
+         
          <div className='flex flex-col gap-4'>
 <h2 className='text-xl uppercase font-titleFont mb-4 text-blue-500'>FIND ME ON
 </h2>
