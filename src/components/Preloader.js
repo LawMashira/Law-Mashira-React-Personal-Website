@@ -1,4 +1,3 @@
-// components/Preloader.js
 import React from 'react';
 import { motion } from 'framer-motion';
 
@@ -11,10 +10,20 @@ const Preloader = () => {
         transition={{ duration: 3, repeat: Infinity, ease: 'linear' }}
         className="relative flex items-center justify-center"
       >
+        {/* Rotating Text */}
+        <motion.div
+          initial={{ rotate: 0 }}
+          animate={{ rotate: -360 }}
+          transition={{ duration: 3, repeat: Infinity, ease: 'linear' }}
+          className="absolute top-0 text-green-500 text-3xl font-bold w-full text-center"
+        >
+          Full Stack Developer Lawson Matutu
+        </motion.div>
+
         {/* iPhone Mockup */}
-        <div className="w-64 h-128 bg-white rounded-3xl shadow-lg p-4 flex justify-center items-center">
+        <div className="w-64 h-128 bg-green-200 rounded-3xl shadow-lg p-4 flex justify-center items-center">
           <img
-            src="https://plus.unsplash.com/premium_photo-1726754457459-d2dfa2e3a434?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" // Replace with your iPhone mockup image path
+            src="https://plus.unsplash.com/premium_photo-1726754457459-d2dfa2e3a434?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
             alt="iPhone Mockup"
             className="w-full h-full object-cover rounded-2xl"
           />
