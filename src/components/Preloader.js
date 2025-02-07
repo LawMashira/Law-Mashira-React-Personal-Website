@@ -23,7 +23,7 @@ const Preloader = () => {
         {/* iPhone Mockup */}
         <div className="w-64 h-128 bg-green-200 rounded-3xl shadow-lg p-4 flex justify-center items-center">
           <img
-            src="https://plus.unsplash.com/premium_photo-1726754457459-d2dfa2e3a434?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+            src="preview.jpg"
             alt="iPhone Mockup"
             className="w-full h-full object-cover rounded-2xl"
           />
