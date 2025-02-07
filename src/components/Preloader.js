@@ -4,7 +4,7 @@ import { motion } from 'framer-motion';
 
 const Preloader = () => {
   return (
-    <div className="fixed inset-0 flex items-center justify-center bg-gradient-to-r from-blue-500 via-purple-500 to-pink-500 z-50">
+    <div className="fixed inset-0 flex items-center justify-center bg-gradient-to-r from-gray-500 via-purple-500 to-gray-300 z-50">
       <motion.div
         initial={{ rotate: 0 }}
         animate={{ rotate: 360 }}
