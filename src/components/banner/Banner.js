@@ -6,7 +6,7 @@ import { law } from "../../assets";
 import SEO from "../SEO";
 const businessData = {
   name: "Lawson Matutu Full Stack Developer",
-  address: "Greenbury, Phoenix, 4068",
+  address: "35 Rockhopper Cl, Rockford, Phoenix, Phoenix, Durban, 4068",
   city: "Phoenix,Durban",
   region: "KwaZulu-Natal",
   zipCode: "4080",
